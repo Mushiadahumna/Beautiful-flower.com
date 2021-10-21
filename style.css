@@ -1,0 +1,113 @@
+/* 
+.topnav {
+    position: relative;
+    overflow: hidden;
+    margin: 0%;
+    background-color: lightgray;
+    font-size: 20px; */
+  /* } */
+
+  body {margin:0;}
+  .topnav {
+    overflow: hidden;
+    background-color: lightgray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: relative;
+    
+  }
+  img{height:100%;
+  width:100%;}
+  
+  .topnav a {
+    float: left;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .topnav a:hover {
+   color: darkblue;
+  }
+  .topnav-left {
+	float: left;
+	font-size: 20px;
+	font-weight: 500;
+	font-family: 'Courier New', Courier, monospace;
+	position: absolute;
+	top: 244px;
+	left: 7%;
+	transform: translate(-50%, -50%);
+	width: 130px;
+	height: 7px;
+  }
+  .topnav-centered {
+    float: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+  /* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+    
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
+
+/*box*/
+.container{
+  top: 0%;
+  float: left;
+  width: 100%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  left: initial;
+}
+.box{
+  width: 350px;
+  height: 200px;
+  float: left;
+  transition: transform .2s;
+  border-radius: 5px;
+  position: relative;
+  margin: 0 auto;
+}
+.box:hover{
+  transform: scale(1.1,1.1);
+  z-index:1;
+}
+
+.heading{
+  color: black; 
+  margin: 20px; 
+  font-size: large; 
+  font-family: Georgia, 'Times New Roman', Times, serif;" 
+}
+
+.heading1{
+  color: black; 
+  margin-top: 50px; 
+  margin-left: 20px;
+  font-size: large; 
+  font-family: Georgia, 'Times New Roman', Times, serif;" 
+}
